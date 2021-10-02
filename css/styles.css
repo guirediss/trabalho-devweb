@@ -1,0 +1,311 @@
+header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #302f2f;
+    z-index: 100;
+}
+
+main h1 {
+    position: relative;
+    font-size: 30px;
+    color: #000;
+    top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    font-family: Noto Sans, sans-serif;
+}
+
+main h2 {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: 100px;
+    font-family: Noto Sans, sans-serif;
+}
+
+header img {
+    position: absolute;
+    top:2px;
+    left: 25px;
+    height: 55px;
+    width: 55px;
+}
+
+main img {
+    position: absolute;
+    height: 650px;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #fff;
+}
+
+.btn-inicio {
+    color: #fff;
+    font-family:Noto Sans, sans-serif;
+    font-size: 20px;
+    left: 600px;
+    top: 15px;
+    position: relative;
+    text-decoration: none;   
+    margin: 1px;
+}
+
+.btn-inicio:hover{
+    padding: 2px;
+    border-radius: 3px;
+    border: 2px;
+    border-color: #000;
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    position: relative;
+}
+
+.btn-sobre {
+    color: #fff;
+    font-family:Noto Sans, sans-serif;
+    font-size: 20px;
+    left: 620px;
+    top: 15px;
+    position: relative;
+    text-decoration: none;
+    margin: 1px;   
+}
+
+.btn-sobre:hover{
+    padding: 2px;
+    border-radius: 3px;
+    border: 2px;
+    border-color: #000;
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-computadores {
+    color: #fff;
+    font-family:Noto Sans, sans-serif;
+    font-size: 20px;
+    left: 640px;
+    top: 15px;
+    position: relative;
+    text-decoration: none;   
+    margin: 1px;
+}
+
+.btn-computadores:hover{
+    padding: 2px;
+    border-radius: 3px;
+    border: 2px;
+    border-color: #000;
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-notebooks {
+    color: #fff;
+    font-family:Noto Sans, sans-serif;
+    font-size: 20px;
+    left: 660px;
+    top: 15px;
+    position: relative;
+    text-decoration: none; 
+    margin: 1px;  
+}
+
+.btn-notebooks:hover{
+    padding: 2px;
+    border-radius: 3px;
+    border: 2px;
+    border-color: #000;
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-manutencao {
+    color: #fff;
+    font-family:Noto Sans, sans-serif;
+    font-size: 20px;
+    left: 680px;
+    top: 15px;
+    position: relative;
+    text-decoration: none;   
+    margin: 1px;
+}
+
+.btn-manutencao:hover{
+    padding: 2px;
+    border-radius: 3px;
+    border: 2px;
+    border-color: #000;
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    position: absolute;
+    top: 600px;
+    right: 0;
+    height: 210px;
+    width: 100%;
+    text-align: center;
+    background: #302f2f;
+    z-index: 100;
+}
+
+#hr {
+    position: relative;
+    top: -7.5px;
+}
+
+#hr2 {
+    position: relative;
+    top: 192px;
+}
+footer h4 {
+    color: #FFF;
+    font-family:Noto Sans, sans-serif;
+    left: 240px;
+    position: absolute;
+    top: 20px;
+    font-size: 20px;
+
+}
+footer p {
+    color: #FFF;
+    font-family:Noto Sans, sans-serif;
+    left: 240px;
+    position: absolute;
+    top: 70px;
+    font-size: 15px;
+    text-align: left;
+}
+
+#titulo-sobre {
+    top: 40px;
+}
+
+#texto-sobre {
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    text-align:justify;  
+    text-align-last:center;  
+}
+
+#div-texto{
+    background:rgb(255, 255, 255);
+    border: solid 2px;
+    border-color: black;
+    left: 300px;
+    height: 250px;
+    width: 740px;
+    position: relative;
+    font-size: 20px;
+    top: 100px;
+    text-align:justify;  
+    text-align-last:center;
+}
+
+.pc1 {
+    width: 130px;
+    height: 180px;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    border: #000 solid 2px;
+    margin: 5px;
+}
+
+.pc1 p {
+    position: absolute;
+    top: 110px;
+    color: red;
+}
+
+.pc1 img {
+    width: 120px;
+    height: 120px;
+    top: 1px;
+    position: absolute;
+    
+}
+
+.pc2 {
+    top: 100px;
+    width: 130px;
+    height: 180px;
+    left: 700px;
+    position: absolute;
+    border: solid #000 2px;
+    margin: 5px;
+}
+
+.pc2 p {
+    position: absolute;
+    top: 110px;
+    color: red;
+}
+
+.pc2 img {
+    width: 120px;
+    height: 120px;
+}
+
+.pc3 {
+    top: 300px;
+    width: 130px;
+    height: 180px;
+    position: absolute;
+    left: 500px;
+    border: solid #000 2px;
+    margin: 5px;
+}
+
+.pc3 p {
+    position: absolute;
+    top: 110px;
+    color: red;
+}
+
+.pc3 img {
+    width: 120px;
+    height: 120px;
+}
+
+.pc4 {
+    font-size: 13.23px;
+    width: 130px;
+    height: 180px;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    border: solid #000 2px;
+    margin: 5px;
+}
+
+.pc4 p {
+    position: absolute;
+    top: 110px;
+    color: red;
+}
+
+.pc4 img {
+    width: 120px;
+    height: 120px;
+}
+
+
